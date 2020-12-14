@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Software\node.js\node.exe D:\Software\yarrn\bin\yarn.js add global node- dev
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\summer_Wu\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Software\yarrn\bin;C:\Users\summer_Wu\Desktop;D:\Software\hugo\hugo_0.78.2_Windows-64bit;D:\Software\node.js;C:\Users\summer_Wu\AppData\Local\Microsoft\WindowsApps;D:\vscode\Microsoft VS Code\bin;C:\Users\summer_Wu\AppData\Local\Yarn\bin;C:\Users\summer_Wu\Desktop;C:\Users\summer_Wu\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.23.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/node-: Not found
+      at Request.params.callback [as _callback] (D:\Software\yarrn\lib\cli.js:66097:18)
+      at Request.self.callback (D:\Software\yarrn\lib\cli.js:140749:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (D:\Software\yarrn\lib\cli.js:141721:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (D:\Software\yarrn\lib\cli.js:141643:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
